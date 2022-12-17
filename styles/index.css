@@ -1,0 +1,401 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em;
+  padding-right: 10em;
+  padding-left: 10em;
+  font-family: 'Poppins', sans-serif;
+  width: 1440px;
+  margin-inline: auto;
+}
+
+.nav-container-first-div{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+
+.nav-title{
+  font-size: 28px;
+}
+
+.nav-container button{
+  background-color: white;
+  color: hsl(321, 100%, 78%);
+  border: 1.5px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  padding: 0.5em 2em;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+/* FirstSection styling starts from here */
+
+.firstsection-color-div{
+
+  width: 100%;
+}
+
+.firstsection-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 6em;
+  width: 1440px;
+  margin-inline: auto;  
+}
+
+.section-title{
+  color: hsl(192, 100%, 9%);
+}
+
+.section-para{
+  width: 30%;
+  text-align: center;
+  margin-top: 0;
+  color: hsl(192, 100%, 9%);
+  font-weight: 400;
+}
+
+.section-button{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  width: 300px;
+  height: 50px;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 30px;
+  margin: 1em auto 5em auto;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.first-section-first-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top: 5em;
+}
+
+.first-section-first-div h1{
+  font-size: 60px;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.first-section-first-div p{
+  font-size:16px;
+  text-align: center;
+  color: grey;
+  margin-top: 0;
+}
+
+/* SecondSection styling starts from here */
+
+.secondsection-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.secondsection-container p{
+  width: 400px;
+  display: block;
+  margin-inline: auto;
+}
+
+.secondsection-container img{
+  width: 600px;
+}
+
+.secondsection-inner-div-color{
+  width: 100%;
+  background-color: hsl(207, 100%, 98%);
+ 
+}
+
+.secondsection-inner-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  margin-inline: auto;
+}
+
+.workflow-wave{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background: 100% center / 100% 100% no-repeat;
+
+}
+
+.workflow-first-wave{
+  height: 165px;
+  background-image: url("/image-3.png");
+}
+
+.workflow-second-wave{
+  height: 139px;
+  background-image: url("/image-1.png");
+}
+
+.workflow-third-wave{
+  height: 156px;
+  background-image: url("/image-4.png");
+}
+
+.workflow-fourth-wave{
+  height: 139px;
+  background-image: url("/image-2.png");
+}
+
+.ready-to-div{
+  margin: 6em auto;
+}
+
+/* Footer styling starts from here */ 
+
+
+.footer-color-div{
+
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 3em;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.footer-wave{
+  height: 185px;
+  background-image: url("/images/bg-footer-top-desktop.svg");
+ 
+}
+
+.footer-container .section-title{
+  color: white;
+}
+
+.footer-container .section-para{
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  width: 270px;
+  text-align: start;
+  margin: 0;
+  line-height: 20px;
+}
+
+.footer-second-div .section-title{
+  font-size: 20px;
+}
+
+
+.footer-second-div form{
+  margin-top: 2em;
+}
+
+.footer-second-div input{
+  width: 250px;
+  height: 35px;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.footer-second-div button{
+  height: 35px;
+  width: 120px;
+  background-color: hsl(322, 100%, 66%);
+  padding: 0.5em 1em;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2em;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.footer-information{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 310px;
+}
+
+.footer-information img{
+  width: 14px;
+  height: 14px;
+  margin-top: 1em;
+}
+
+.footer-information .section-para {
+  margin-top: 1em;
+}
+
+.footer-logo-div{
+  display: flex;
+  align-items: center;
+}
+
+.convert-section-background{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/bg-hero-desktop.svg");
+
+}
+
+
+.convert-section{
+  width: 100%;
+  height: 750px;
+  position: relative;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.convert-section .go-back-btn{
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.convert-section-main {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5em;
+  max-width: 1440px;
+  margin-inline: auto;
+  align-items: center;
+}
+
+.convert-section-main p{
+  width: 400px;
+  text-align: start;
+  line-height: 25px;
+}
+
+.convert-section-main img{
+  width:600px;
+  padding-right: 3em;
+}
+
+
+.convert-section-main .section-title{
+  font-size: 40px;
+  color: hsl(192, 100%, 9%);
+}
+
+.second-index-footer{
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-top: 10em;
+  padding-bottom: 4em;
+}
+
+.convert-pdf-input-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 650px;
+  margin-inline: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  right: 400px;
+  bottom: -110px;
+  height: 230px;
+  
+}
+
+.convert-pdf-input-div h1{
+  margin-top: 2.5em;
+}
+
+input[type='file'] {
+  
+  position:absolute;
+  top:120px;
+  left:50px;
+  opacity:0;
+  cursor:pointer;
+}
+
+.pdf-btn{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+
+.download-pdf-btn{
+  background-color: white;
+  color: hsl(321, 100%, 78%);
+  border: 1.5px solid hsl(322, 100%, 66%);
+  font-weight: 600;
+}
+
+.convert-pdf-input-div div{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+#showImg{
+  display: none;
+}
+
+.convert-pdf-input-div span:hover{
+  opacity: 0.5;
+}
